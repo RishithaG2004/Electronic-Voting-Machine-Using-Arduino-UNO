@@ -5,8 +5,14 @@ An Arduino-based electronic voting machine that allows users to cast votes for c
 - **Vote Casting:** Each button press increments the vote count for the respective candidate.
 - **Result Display:** Pressing the result button displays the winner on the LCD.
 - **Reset Functionality:** After displaying the result, the system resets vote counts for the next session.
+## Components Required
+- Arduino UNO
+- 16x2 LCD
+- 5 push buttons
+- Potentiometer (for LCD contrast)
+- Resistors
+- Breadboard & jumper wires
 ## Arduino Code
-
 ```cpp
 #include <LiquidCrystal.h>
 
