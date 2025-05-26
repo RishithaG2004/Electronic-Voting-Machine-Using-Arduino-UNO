@@ -1,5 +1,15 @@
-## Arduino Code
+## Arduino Code 
+<pre>
+```cpp
+#include <iostream>
+using namespace std;
 
+int main() {
+    cout << "Hello, GitHub!" << endl;
+    return 0;
+}
+```
+</pre>
 ```cpp
 #include <LiquidCrystal.h>
 #include <LiquidCrystal.h>
