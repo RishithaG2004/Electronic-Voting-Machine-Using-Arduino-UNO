@@ -97,10 +97,9 @@ void loop() {
 ```bash
 Electronic-Voting-Machine-Using-Arduino-UNO/
 ├── Arduino/
-│   └── smart_evm.ino
+│   └── evm.ino
 ├── images/
-│   ├── circuit_diagram.png
-│   └── project_setup.jpg
+│   └── circuit_diagram.png
 ├── README.md
 └── LICENSE
 ```
