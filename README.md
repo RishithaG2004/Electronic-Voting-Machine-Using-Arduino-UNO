@@ -93,7 +93,9 @@ void loop() {
 3. Power the board and start voting using push buttons.
 4. Press the result button to display the winner.
 ## Folder Structure
-smart-electronic-voting-machine/
+<!-- TREEVIEW START -->
+```bash
+   smart-electronic-voting-machine/
 ├── Arduino/
 │   └── smart_evm.ino
 ├── images/
@@ -101,5 +103,7 @@ smart-electronic-voting-machine/
 │   └── project_setup.jpg
 ├── README.md
 └── LICENSE
+```
+<!-- TREEVIEW END -->
 ## License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
