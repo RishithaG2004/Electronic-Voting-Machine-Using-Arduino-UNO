@@ -13,14 +13,12 @@ An Arduino-based electronic voting machine that allows users to cast votes for c
 // Initialize the LCD (RS, E, D4, D5, D6, D7)
 LiquidCrystal lcd(13, 12, 11, 10, 9, 8);
 
-// Define button pins
 #define S1 7  // Candidate A
 #define S2 6  // Candidate B
 #define S3 5  // Candidate C
 #define S4 4  // Candidate D
 #define S5 3  // Result Button
 
-// Vote counters
 int vote1 = 0;
 int vote2 = 0;
 int vote3 = 0;
