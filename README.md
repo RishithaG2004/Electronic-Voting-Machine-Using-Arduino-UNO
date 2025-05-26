@@ -15,6 +15,7 @@ An Arduino-based electronic voting machine that allows users to cast votes for c
 ## Circuit Diagram
 ![Circuit Diagram](images/circuit_diagram.png)
 ## Arduino Code
+<pre>
 ```cpp
 #include <LiquidCrystal.h>
 
@@ -86,3 +87,5 @@ void loop() {
     lcd.clear();
   }
 }
+```
+</pre>
