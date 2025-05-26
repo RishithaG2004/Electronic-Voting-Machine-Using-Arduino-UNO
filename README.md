@@ -95,7 +95,7 @@ void loop() {
 ## Folder Structure
 <!-- TREEVIEW START -->
 ```bash
-   smart-electronic-voting-machine/
+Electronic-Voting-Machine-Using-Arduino-UNO/
 ├── Arduino/
 │   └── smart_evm.ino
 ├── images/
