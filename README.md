@@ -7,15 +7,14 @@ An Arduino-based electronic voting machine that allows users to cast votes for c
 - **Reset Functionality:** After displaying the result, the system resets vote counts for the next session.
 ## Components Required
 - Arduino UNO
-- 16x2 LCD
-- 5 push buttons
+- LCD 16x2 display
+- 5 Push buttons (S1 to S5)
 - Potentiometer (for LCD contrast)
 - Resistors
-- Breadboard & jumper wires
+- Jumper wires and breadboard
 ## Circuit Diagram
 ![Circuit Diagram](images/circuit_diagram.png)
 ## Arduino Code
-<pre>
 ```cpp
 #include <LiquidCrystal.h>
 
@@ -88,4 +87,19 @@ void loop() {
   }
 }
 ```
-</pre>
+## Getting Started
+1. Connect components as per the circuit diagram.
+2. Upload `evm.ino` to Arduino UNO using Arduino IDE.
+3. Power the board and start voting using push buttons.
+4. Press the result button to display the winner.
+## Folder Structure
+smart-electronic-voting-machine/
+├── Arduino/
+│   └── smart_evm.ino
+├── images/
+│   ├── circuit_diagram.png
+│   └── project_setup.jpg
+├── README.md
+└── LICENSE
+## License
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
