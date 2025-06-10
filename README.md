@@ -12,8 +12,6 @@ An Arduino-based electronic voting machine that allows users to cast votes for c
 - Potentiometer (for LCD contrast)
 - Resistors
 - Jumper wires and breadboard
-## Circuit Diagram
-![Circuit Diagram](images/circuit_diagram.png)
 ## Arduino Code
 ```cpp
 #include <LiquidCrystal.h>
